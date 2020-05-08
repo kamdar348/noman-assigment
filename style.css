@@ -1,0 +1,137 @@
+/* Start Header */
+.header-top{
+    background-color: rgb(80, 98, 204);
+    /*background-color: rgb(0, 179, 179);*/
+}
+/* Social Icons */
+.list-unstyled {
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    margin-top: 15px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons .fa{
+    font-size: 1.10em;
+}
+.social-icons .fa{
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+    text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active{ 
+	-webkit-transform: scale(1.25) rotate(360deg);
+	-moz-transform: scale(1.25) rotate(360deg);
+	-ms-transform: scale(1.25) rotate(360deg);
+	-o-transform: scale(1.25) rotate(360deg);
+    transform: scale(1.25) rotate(360deg);
+}
+.social-icons .fa-facebook{
+    background-color:#3C599F;
+    color: white;
+}
+.social-icons .fa-twitter{
+    background-color:#32CCFE; 
+    color: white;
+}  
+.social-icons .fa-whatsapp{
+    background-color:#25D366; 
+    color: white;
+}  
+.social-icons .fa-instagram{
+    color: white;
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    /*color: #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%;*/
+}
+.social-icons .fa-youtube-play {
+    color: white;
+    background-color: rgb(247, 45, 45);
+}  
+/* End Social Icons */
+
+/* Social Text */
+.social-txt{
+    margin-top: 17px;
+    color: white;
+    text-align: center;
+}
+.btn-sm{
+    font-size: 11px !important;
+    padding: 5px;
+    font-weight: 400;
+}
+/* End Social Text */
+.bg-noman{
+    background-color: white;
+}
+#hj{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #285AEB;
+    padding-top: 10px;
+}
+#kl{
+    font-size: 40px;
+font-weight: bolder;
+color: green;
+padding-top: 10px;
+}
+
+a.hover{
+    background-color: blue;
+}
+.hj{
+    color: blue;
+}
+.kl{
+    color: green;
+}
+.shadow{
+    text-shadow: black;
+    width: 300px;
+    height: 190px;
+    display: inline-block;
+    margin: 20px 15px 15px 15px;
+}
+.logos{
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+}
+.bottom{
+    text-align: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+  }
+  .footer{
+      padding-top: 200px;
+  }
+  li{
+      display: inline-block
+
+
+  }
+  .lp{
+     background-color:  rgb(220, 228, 235);
+     color: steelblue;
+  }
+  li:hover{
+      background-color: #3C599F;
+      border-radius: 60px;
+  }
